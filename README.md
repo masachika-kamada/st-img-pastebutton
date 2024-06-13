@@ -1,5 +1,23 @@
 # streamlit-custom-component
 
+> [!NOTE]
+> **ビルドとパッケージインストール**
+> * フロントエンドのビルド
+> 
+>   ```
+>   cd st-img-pastebutton/frontend
+>   npm install
+>   npm run build
+>   ```
+> 
+> * インストールと実行
+> 
+>   ```
+>   cd ../..
+>   pip install .
+>   streamlit run example.py
+>   ```
+
 Streamlit component that allows you to create button to paste image from clipboard.
 
 ![Videotogif (21)](https://github.com/tsuzukia21/st-img-pastebutton/assets/132349459/cf3f9564-2fdf-4aef-a2dc-15b75be1f55b)
